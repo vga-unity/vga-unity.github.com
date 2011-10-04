@@ -3,7 +3,7 @@ layout: default
 title: Top page
 ---
 
-このウェブサイトは高橋の担当する Unity コースに関連する情報を集積するものです。
+このサイトは高橋の担当する Unity コースに関連する情報を集積するものです。
 
 ## GP11 - チーム制作
 
@@ -15,13 +15,17 @@ title: Top page
 {% for post in site.categories.gp10 reversed %}
 - [{{ post.title }}]({{ post.url }}){% endfor %}
 
-## 前期の授業
+## コピペ帳
 
-前期の授業では主に次のサイトに情報を集積していました。
+  [Gist - vga-unity](http://gist.github.com/vga-unity)
+
+Gist はバージョン管理の可能なコピペ共有サイトです。授業中に簡単なソースコードを共有するのにここを使います。
+
+## 前期の授業
 
   [Google Code - Unity講義まとめページ](http://code.google.com/p/vga-unity/)
 
-過去ログ的に利用してください。
+前期の授業では上のサイトに情報を集積していました。過去ログとして利用してください。
 
 ## Unity関連リンク
 
