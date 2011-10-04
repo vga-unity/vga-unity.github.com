@@ -1,9 +1,19 @@
 ---
-layout: post
+layout: default
 title: Top page
 ---
 
 このウェブサイトは高橋の担当する Unity コースに関連する情報を集積するものです。
+
+## GP11 - チーム制作
+
+{% for post in site.categories.gp11 reversed %}
+- [{{ post.title }}]({{ post.url }}){% endfor %}
+
+## GP10 - ミドルウェア
+
+{% for post in site.categories.gp10 reversed %}
+- [{{ post.title }}]({{ post.url }}){% endfor %}
 
 ## 前期の授業
 

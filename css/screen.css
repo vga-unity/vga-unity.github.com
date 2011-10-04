@@ -2,7 +2,8 @@ body {
     font-family: helvetica, hirakakupro-w3, sans-serif;
     font-size: 10.5pt;
     margin: 0px;
-    background-color: white;
+    background-color: #b7a18c;
+    background-color: #97816c;
 }
 
 h1 {
@@ -85,7 +86,7 @@ a:active {
 
 #title {
   width: 800px;
-  height: 138px;
+  height: 128px;
   margin: 0px;
   padding: 0px;
   background-image: url(/images/title.png);
@@ -143,7 +144,9 @@ a:active {
 
 #site {
   width: 800px;
-  margin: 0px auto 4em auto;
+  margin: 0px auto 2em auto;
+  padding-bottom: 5pt;
+	background: white;
 }
 
 #footer {
@@ -151,6 +154,6 @@ a:active {
     text-align: right;
     color: #666;
     border-top: 1px solid #666;
-    margin-top: 10pt;
+    margin: 10pt 2em 0px 2em;
     padding-top: 4pt;
 }
